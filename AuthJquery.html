@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="AuthJquery.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+    <title>Authentification Jquery</title>
+</head>
+<body id="myBody">
+    <div class="container">
+        <div class="header">
+            <h2>Authentification</h2>
+        </div>
+        <form class="form" id="form">   
+            <div class="form-controle">
+                <label for="myEmail">Email</label>
+                <input type="text" id="myEmail" placeholder="yassine17@gmail.com">
+            </div>    
+            <div>
+                <span id="myEmailVerif"></span>
+            </div>
+            <div class="form-controle">
+                <label for="myPassword">Password</label>
+                <input type="password" id="myPassword" placeholder="Password">
+                <small>Error Message</small>
+            </div>          
+            <input type="button" id="myButton" value="Submit">
+            
+            <div>
+                <span id="myPassVerif"></span>
+            </div>
+            
+        </form>
+    </div>
+    
+
+    <script src="AuthJquery.js"></script>
+</body>
+</html>
